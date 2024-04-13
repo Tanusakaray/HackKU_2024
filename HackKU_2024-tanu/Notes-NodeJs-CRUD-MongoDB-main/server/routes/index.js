@@ -10,5 +10,4 @@ router.get('/about', mainController.about);
 router.get('/resources', mainController.resources);
 router.get('/hotline', mainController.hotline);
 
-
 module.exports = router;
