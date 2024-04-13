@@ -94,3 +94,40 @@ h1,h2,h3,h4,h5,h6 {
   right: -50px;
   bottom: -30px;
 }
+
+/*css for hotline*/
+
+.row > .col {
+  flex: 1;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hotline h2 {
+  font-family: 'Unbounded', cursive;
+  font-weight: 800;
+  color: var(--bs-primary-rgb);
+}
+
+.hotline p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--bs-primary-rgb);
+}
+
+.hotline .btn-primary {
+  background-color: #2271b1;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.hotline .btn-primary:hover {
+  background-color: #0056b3;
+}
+
