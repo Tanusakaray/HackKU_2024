@@ -26,16 +26,28 @@ exports.about = async (req, res) => {
   res.render('about', locals);
 }
 
+/**
+ * GET /
+ * Hotline 
+*/
+exports.hotline = async (req, res) => {
+  const locals = {
+    title: "Hotline - NodeJs Notes",
+    description: "Free NodeJS Notes App.",
+  }
+  res.render('hotline', locals);
+}
+
 
 
 /**
  * GET /
- * About 
+ * Resources 
 */
-exports.about = async (req, res) => {
+exports.resources = async (req, res) => {
   const locals = {
-    title: "About - NodeJs Notes",
+    title: "Resources - NodeJs Notes",
     description: "Free NodeJS Notes App.",
   }
-  res.render('about', locals);
+  res.render('resources', locals);
 }
