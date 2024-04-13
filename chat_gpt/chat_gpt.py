@@ -1,4 +1,3 @@
-import openai
 import pymongo
 from pymongo import MongoClient
 import requests
@@ -12,7 +11,7 @@ class Gpt:
 
 def chat_with_chatgpt(message):
     # Your OpenAI API key
-    api_key = "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"
+    api_key = "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"
 
     # Set OpenAI API key
     openai.api_key = api_key
