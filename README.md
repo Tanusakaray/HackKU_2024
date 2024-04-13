@@ -40,5 +40,8 @@ Download the code onto your computer, then use/create the following
 4. To access the virtual assistant, click on the tab *Virtual Assistant* then enter a prompt into the text box and enter the information
 5. To access the links, click on the tab titled *Resouces* and access the different articles that are displayed by clicking on the thumbnail.
 
+![dashboard](https://github.com/Tanusakaray/HackKU_2024/assets/106645636/bbec4d07-0ee2-448c-b4aa-86a6da5294b6)
 
+
+![Resources](https://github.com/Tanusakaray/HackKU_2024/assets/106645636/f7e3c62c-4c39-4027-84b4-695785cad8f7)
 
