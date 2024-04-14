@@ -1,0 +1,39 @@
+
+<div class="container-fluid container-fluid-custom">
+<h1>AI Therapist</h1>
+<p> Reflectly is your personal pocket sanctuary for mental well-being. Born from a hackathon challenge, our app is designed to empower users to navigate their emotions through guided journaling. Reflectly strips away complexities, offering a simple, intuitive interface for users to express thoughts, track moods, and discover patterns in their emotional health. It’s a space to reflect, grow, and heal at your own pace, with the support of a community that understands. Dive into the Reflectly experience and turn your daily reflections into steps towards a more mindful, balanced life.
+
+</p>
+</div>
+
+const axios = require('axios');
+
+// Local server URL
+const API_URL = 'http://localhost:5000/api/messages';  // Adjust the path as needed
+
+async function sendMessage(model, system, messages) {
+    try {
+        const response = await axios.post(API_URL, {
+            model: model,
+            max_tokens: 1000,
+            temperature: 0.0,
+            system: system,
+            messages: messages,
+        }, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        return response.data;
+    } catch (error) {
+        console.error('Error calling the local API:', error);
+        return null;
+    }
+}
+
+const messages = [{ role: 'user', content: 'I feel very sad' }];
+sendMessage('claude-3-opus-20240229', 'Roleplay as a therapist', messages)
+    .then(response => {
+        console.log('Therapist response:', response);
+    });

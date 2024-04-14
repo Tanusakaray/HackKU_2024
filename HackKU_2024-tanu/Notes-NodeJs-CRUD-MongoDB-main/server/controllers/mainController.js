@@ -16,14 +16,14 @@ exports.homepage = async (req, res) => {
 
 /**
  * GET /
- * About 
+ * Therapist 
 */
-exports.about = async (req, res) => {
+exports.therapist = async (req, res) => {
   const locals = {
-    title: "About - NodeJs Notes",
+    title: "Therapist - NodeJs Notes",
     description: "Free NodeJS Notes App.",
   }
-  res.render('about', locals);
+  res.render('therapist', locals);
 }
 
 /**
