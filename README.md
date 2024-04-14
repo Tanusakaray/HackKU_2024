@@ -37,8 +37,9 @@ Download the code onto your computer, then use/create the following
    
 2. From there, depending on which application the user would like to use, click on the *tabs* at the top to navigate between web pages
 3. To use the notes application, click on *Add Note*, then click on the textbox and enter user input, then click *save* to save the note.
-4. To access the virtual therapist, click on the tab *Virtual Therapist* then enter a prompt into the text box and enter the information
-5. To access the links, click on the tab titled *Resouces* and access the different articles that are displayed by clicking on the thumbnail.
+4. To access the daily affirmation application click on the *Daily Affirmation* tab, and then the user will enter their number to receive daily texts.
+5. To access the *MoodTracker* click on the tab with that title then user inputs mood for the day.
+6. To access the links, click on the tab titled *Resouces* and access the different articles that are displayed by clicking on the thumbnail.
 
 ![dashboard](https://github.com/Tanusakaray/HackKU_2024/assets/106645636/bbec4d07-0ee2-448c-b4aa-86a6da5294b6)
 
