@@ -37,6 +37,14 @@ exports.hotline = async (req, res) => {
   }
   res.render('hotline', locals);
 }
+exports.phoneNumber = async (req, res) => {
+  const locals = {
+    title: "phone number - NodeJs Notes",
+    description: "Free NodeJS Notes App.",
+  }
+  res.render('phoneNumber', locals);
+ 
+  };
 
 
 

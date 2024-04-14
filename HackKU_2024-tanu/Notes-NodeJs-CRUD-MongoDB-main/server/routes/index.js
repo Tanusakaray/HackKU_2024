@@ -9,6 +9,7 @@ router.get('/', mainController.homepage);
 router.get('/therapist', mainController.therapist);
 router.get('/resources', mainController.resources);
 router.get('/hotline', mainController.hotline);
+router.get('/phoneNumber', mainController.phoneNumber);
 
 
 module.exports = router;
